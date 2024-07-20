@@ -1,0 +1,72 @@
+h1{
+    color: rgba(17, 0, 255, 0.758);
+}
+body{
+    background-color: aqua;
+
+    background-image: url("stock.jpg");
+    filter: opacity(0.9);
+}
+body{
+font-family:cursive;
+font-size: larger;
+color: blue;
+font-weight:550;
+}
+.rt{
+    align-items: end;
+    justify-content: end;
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+/* .rt{
+    display: flex; 
+    justify-content: end;
+    align-items: end; 
+    margin-top: 20px; 
+} */
+ .btn{
+    padding: 10px 20px;
+    background: aqua;
+    box-shadow: 1px 1px 10px burlywood
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+ }
+.home-video {
+    top: 45px;
+    left: 1100px;
+    right: 0px;
+    width: 25%;
+    filter: opacity(0.6);
+    height: 23%;
+    position: absolute;
+    object-fit:cover;
+    animation: alternate-reverse;
+  }
+  .HI{
+    text-align: center;
+    color: blue;
+    background-color:aqua;
+}
+/* .btn {
+  padding: 10px 20px;
+  background: var(--dark-200)
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn:hover {
+  background: var(--dark-300);
+} */
